@@ -1,5 +1,11 @@
 import * as React from 'react'
+import { render } from 'react-dom'
+import styled from 'styled-components'
+
+const Container = styled.div`
+    background-color: pink;
+`
 
 export const Card = () => {
-    return <div>Card</div>
+    return <Container>Playing card</Container>
 }
